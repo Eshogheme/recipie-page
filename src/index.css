@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: MyFont;
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf')
+}
+
+@font-face {
+  font-family: newFont;
+  src: url('../assets/fonts/outfit/static/Outfit-Medium.ttf');
+}
+
+@font-face {
+  font-family: dopeFont;
+  src: url('../assets/fonts/outfit/static/Outfit-Bold.ttf');
+}
+
+@font-face {
+  font-family: coolFont;
+  src: url('../assets/fonts/outfit/static/Outfit-ExtraBold.ttf');
+}
+*{
+  box-sizing: border-box;
+}
+
+
