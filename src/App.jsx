@@ -5,7 +5,7 @@ const App = () => {
   return (
     <section className="">
       <div>
-        <img src="assets/images/image-omelette.jpeg" className="mb-8" alt="" />
+      <img src="/images/image-omelette.jpeg" className="mb-8" alt="Omelette" />
       </div>
       <header className="p-8 mb-4">
         <h1 className="text-4xl font-my-font text-stone-900 mb-5">
