@@ -3,15 +3,14 @@ import "./App.css";
 
 const App = () => {
   return (
-    <body className="lg:bg-stone-100 flex flex-col justify-center items-center">
-      
-    
-    <section className="lg:bg-white p-7 w-2/4 my-10 rounded-2xl">
+    <body className="bg-white lg:bg-stone-100 flex flex-col justify-center items-center">
+      <section className="w-full my-0 p-0 lg:bg-white lg:p-5 lg:w-2/4 lg:my-10 rounded-2xl">
+
       <div>
-      <img src="/images/image-omelette.jpeg" className="mb-8 lg:rounded-xl" alt="Omelette" />
+      <img src="/images/image-omelette.jpeg" className="mb-8 w-full lg:rounded-xl" alt="Omelette" />
       </div>
       <header className="p-8 mb-4">
-        <h1 className="text-4xl font-my-font text-stone-900 mb-5 md:text-4xl lg:text-4xl">
+        <h1 className="text-3xl font-my-font text-stone-900 mb-5 md:text-4xl lg:text-4xl">
           Simple Omelette Recipe
         </h1>
         <p className="font-new-font text-xl text-stone-600">
@@ -21,20 +20,20 @@ const App = () => {
         </p>
       </header>
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-rose-50 p-6 rounded-2xl mb-5 md:p-12 w-3/4">
+        <div className="bg-rose-50 p-6 rounded-2xl mb-5 w-11/12 md:p-12 md:w-3/4">
           <h1 className="mb-3 font-dope-font text-2xl text-rose-800 md:text-3xl">
             Preparation time
           </h1>
           <ul className="list-disc flex flex-col justify-center items-center">
-            <li className="font-new-font text-xl text-stone-600 w-3/4 md:mb-2">
+            <li className="font-new-font text-xl text-stone-600 w-3/4 mb-0 md:mb-2">
               <span className="font-cool-font text-stone-600">Total</span>:
               Approximately 10 minutes
             </li>
-            <li className="font-new-font text-xl text-stone-600 w-3/4  md:mb-2">
+            <li className="font-new-font text-xl text-stone-600 w-3/4 mb-0 md:mb-2">
               <span className="font-cool-font text-stone-600">Preparation</span>
               : 5 minutes
             </li>
-            <li className="font-new-font text-xl text-stone-600 w-3/4  md:mb-2">
+            <li className="font-new-font text-xl text-stone-600 w-3/4 mb-0 md:mb-2">
               <span className="font-cool-font text-stone-600">Cooking</span>: 5
               minutes
             </li>
