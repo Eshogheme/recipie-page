@@ -4,7 +4,7 @@ import "./App.css";
 const App = () => {
   return (
     <body className="bg-white lg:bg-stone-100 flex flex-col justify-center items-center">
-      <section className="w-full my-0 p-0 lg:bg-white lg:p-5 lg:w-2/4 lg:my-10 rounded-2xl">
+      <section className="w-full my-0 p-0 lg:bg-white lg:p-5 lg:w-2/4 lg:my-10 rounded-2xl lg:max-w-3xl xl:max-w-2xl">
 
       <div>
       <img src="/images/image-omelette.jpeg" className="mb-8 w-full lg:rounded-xl" alt="Omelette" />
